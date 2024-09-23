@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: #4949e6;
+  color: white;
+}
+.text-center{
+  text-align: center;
+}
+.container{
+  width: 60%;
+  margin: 10% auto;
+}
+.listItem{
+  background: white;
+  color: #4949e6;
+}
+.listItem p{
+  text-align: center;
+  padding: 10px 0px;
+  margin :0;
+}
+.listItem span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0px;
+  border: 0.3px solid white;
+}
+.listItem span.title{
+  background-color: #4dc7e3;
+  color: white;
+}
+.listItem span.name,
+form input[type=text]{
+  width: 60%;
+}
+.listItem span.age,
+form input[type=number]{
+  width: 30%;
+}
+.listItem span.action,
+form input[type=submit]{
+  width: 10%;
+}
+.listItem span.icon{
+  color: #4dc7e3;
+  cursor: pointer;
+}
+form input{
+  padding: 10px;
+  background-color: white;
+  border: transparent;
+  border: rgb(175, 167, 167) .3px solid;
+
+}
+form input[type=name]{
+width: 60%;
+
+}
+form input[type=number]{
+  width: 30%;
+  
+  }
+form input[type=submit]{
+  background: #4dc7e3;
+  border: #4dc7e3 .3px solid;
+  color: white;
+  cursor: pointer;
+width: 10%;
+}
